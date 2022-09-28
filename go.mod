@@ -3,7 +3,7 @@ module github.com/KETI-Hybrid/hcp-scheduler-v1
 go 1.18
 
 require (
-	github.com/KETI-Hybrid/hcp-pkg v0.0.0-20220922020245-a21a27848fbd
+	github.com/KETI-Hybrid/hcp-pkg v1.0.0
 	github.com/google/uuid v1.3.0
 	k8s.io/api v0.25.2
 	k8s.io/apimachinery v0.25.2
