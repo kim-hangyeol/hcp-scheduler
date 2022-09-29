@@ -56,7 +56,11 @@ func (sched *Scheduler) Scheduling(deployment *v1alpha1.HCPDeployment) []v1alpha
 	klog.Infoln("[scheduling start]")
 	sched.ClusterInfoList = *resourceinfo.NewClusterInfoList()
 	sched.SchedulingResult = make([]v1alpha1.Target, 0)
-	schedPolicy, _ := p.GetHCPPolicy(*cm.HCPPolicy_Client, "scheduling-policy")
+	schedPolicy, err := p.GetHCPPolicy(*cm.HCPPolicy_Client, "scheduling-policy")
+	if err != nil {
+		klog.Errorln(err)
+		return nil
+	}
 	var filter []string
 	var score []string
 	for _, policy := range schedPolicy.Spec.Template.Spec.Policies {
