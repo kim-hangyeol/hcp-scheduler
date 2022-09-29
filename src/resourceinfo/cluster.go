@@ -3,8 +3,8 @@ package resourceinfo
 import (
 	"context"
 
-	"github.com/KETI-Hybrid/hcp-pkg/apis/hcpcluster/v1alpha1"
-	hcpclusterv1alpha1 "github.com/KETI-Hybrid/hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned"
+	"hcp-pkg/apis/hcpcluster/v1alpha1"
+	hcpclusterv1alpha1 "hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"

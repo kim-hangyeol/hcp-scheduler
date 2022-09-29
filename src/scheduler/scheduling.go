@@ -3,13 +3,13 @@ package scheduler
 import (
 	"context"
 
-	p "github.com/KETI-Hybrid/hcp-pkg/hcp-resource/hcppolicy"
-	"github.com/KETI-Hybrid/hcp-pkg/util/clusterManager"
+	p "hcp-pkg/hcp-resource/hcppolicy"
+	"hcp-pkg/util/clusterManager"
 
-	"github.com/KETI-Hybrid/hcp-pkg/apis/resource/v1alpha1"
+	"hcp-pkg/apis/resource/v1alpha1"
 
-	f "github.com/KETI-Hybrid/hcp-scheduler-v1/src/framework/v1alpha1"
-	"github.com/KETI-Hybrid/hcp-scheduler-v1/src/resourceinfo"
+	f "hcp-scheduler/src/framework/v1alpha1"
+	"hcp-scheduler/src/resourceinfo"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

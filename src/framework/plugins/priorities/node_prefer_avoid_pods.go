@@ -3,9 +3,9 @@ package priorities
 import (
 	"encoding/json"
 
-	"github.com/KETI-Hybrid/hcp-scheduler-v1/src/framework/plugins"
-	"github.com/KETI-Hybrid/hcp-scheduler-v1/src/internal/scoretable"
-	"github.com/KETI-Hybrid/hcp-scheduler-v1/src/resourceinfo"
+	"hcp-scheduler/src/framework/plugins"
+	"hcp-scheduler/src/internal/scoretable"
+	"hcp-scheduler/src/resourceinfo"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

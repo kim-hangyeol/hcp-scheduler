@@ -1,30 +1,6 @@
 # cloud.google.com/go v0.97.0
 ## explicit; go 1.11
 cloud.google.com/go/compute/metadata
-# github.com/KETI-Hybrid/hcp-pkg v1.0.0
-## explicit; go 1.18
-github.com/KETI-Hybrid/hcp-pkg/apis/hcpcluster/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/apis/hcppolicy/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/apis/resource/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/apis/sync/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned
-github.com/KETI-Hybrid/hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned/scheme
-github.com/KETI-Hybrid/hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned/typed/hcpcluster/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/client/hcppolicy/v1alpha1/clientset/versioned
-github.com/KETI-Hybrid/hcp-pkg/client/hcppolicy/v1alpha1/clientset/versioned/scheme
-github.com/KETI-Hybrid/hcp-pkg/client/hcppolicy/v1alpha1/clientset/versioned/typed/hcppolicy/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/clientset/versioned
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/clientset/versioned/scheme
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/clientset/versioned/typed/resource/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/informers/externalversions
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/informers/externalversions/internalinterfaces
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/informers/externalversions/resource
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/informers/externalversions/resource/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/client/resource/v1alpha1/listers/resource/v1alpha1
-github.com/KETI-Hybrid/hcp-pkg/client/sync/v1alpha1/clientset/versioned/scheme
-github.com/KETI-Hybrid/hcp-pkg/hcp-resource/hcppolicy
-github.com/KETI-Hybrid/hcp-pkg/kube-resource/kubefed
-github.com/KETI-Hybrid/hcp-pkg/util/clusterManager
 # github.com/PuerkitoBio/purell v1.1.1
 ## explicit
 github.com/PuerkitoBio/purell
@@ -235,6 +211,30 @@ gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
+# hcp-pkg v0.0.0 => ../hcp-pkg
+## explicit; go 1.18
+hcp-pkg/apis/hcpcluster/v1alpha1
+hcp-pkg/apis/hcppolicy/v1alpha1
+hcp-pkg/apis/resource/v1alpha1
+hcp-pkg/apis/sync/v1alpha1
+hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned
+hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned/scheme
+hcp-pkg/client/hcpcluster/v1alpha1/clientset/versioned/typed/hcpcluster/v1alpha1
+hcp-pkg/client/hcppolicy/v1alpha1/clientset/versioned
+hcp-pkg/client/hcppolicy/v1alpha1/clientset/versioned/scheme
+hcp-pkg/client/hcppolicy/v1alpha1/clientset/versioned/typed/hcppolicy/v1alpha1
+hcp-pkg/client/resource/v1alpha1/clientset/versioned
+hcp-pkg/client/resource/v1alpha1/clientset/versioned/scheme
+hcp-pkg/client/resource/v1alpha1/clientset/versioned/typed/resource/v1alpha1
+hcp-pkg/client/resource/v1alpha1/informers/externalversions
+hcp-pkg/client/resource/v1alpha1/informers/externalversions/internalinterfaces
+hcp-pkg/client/resource/v1alpha1/informers/externalversions/resource
+hcp-pkg/client/resource/v1alpha1/informers/externalversions/resource/v1alpha1
+hcp-pkg/client/resource/v1alpha1/listers/resource/v1alpha1
+hcp-pkg/client/sync/v1alpha1/clientset/versioned/scheme
+hcp-pkg/hcp-resource/hcppolicy
+hcp-pkg/kube-resource/kubefed
+hcp-pkg/util/clusterManager
 # k8s.io/api v0.25.2
 ## explicit; go 1.19
 k8s.io/api/admissionregistration/v1
@@ -669,3 +669,4 @@ sigs.k8s.io/structured-merge-diff/v4/value
 # sigs.k8s.io/yaml v1.3.0
 ## explicit; go 1.12
 sigs.k8s.io/yaml
+# hcp-pkg => ../hcp-pkg
